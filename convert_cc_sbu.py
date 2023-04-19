@@ -6,7 +6,6 @@ input_file = 'ccs_synthetic_filtered_large.json'
 output_file = 'ccs_synthetic_filtered_large.tsv'
 
 # load JSON data from input file
-with open(input_file, 'r') as f:
     data = json.load(f)
 
 # extract header and data from JSON
